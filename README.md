@@ -1,6 +1,7 @@
 # This project is a scholar project to use GraphQL API
 
 The goal of this project was to develop a GraphQL API. This API had to handle teams and players. 
+
 *For now there is no Node Js client to use the API. Sorry, but it might come later.* 
 
 However you can use the folowing steps to test the API. 
