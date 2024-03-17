@@ -16,7 +16,8 @@ However you can use the folowing steps to test the API.
 3. Launch the project
 4. Open the page : http://localhost:8080/graphiql
 5. You can just copy paste the folowing lines into the left part of the tool :
-```json
+
+```
 query MyQuery {
    getTeams{
 	id
