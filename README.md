@@ -19,45 +19,46 @@ However you can use the folowing steps to test the API.
 
 ```
 query MyQuery {
-   getTeams{
-	id
-  team_name
-  city
-  }
 
-  getPlayers{
-    id
-    first_name
-    last_name
-    date_of_birth
-    height
-  }
+	getTeams{
+		id
+		team_name
+		city
+	}
+	
+	getPlayers{
+		id
+		first_name
+		last_name
+		date_of_birth
+		height
+	}
   
 }
 
 mutation MyMutation{
-  
-updatePlayer(id:"0",first_name:"Jonh",last_name:"Doe",date_of_birth : "29/02/1902", height:"210"){
-	id
-	first_name
-	last_name
-	date_of_birth
-	height
+	updatePlayer(id:"0",first_name:"Jonh",last_name:"Doe",date_of_birth : "29/02/1902", height:"210"){
+		id
+		first_name
+		last_name
+		date_of_birth
+		height
 	}
-   
- updateTeam(id:"0",team_name:"ASSE",city:"Saint-Etienne"){
-  id
-  team_name
-  city
+	
+	updateTeam(id:"0",team_name:"ASSE",city:"Saint-Etienne"){
+		id
+		team_name
+		city
 	}
-  
-  deleteTeam(id:"4"){
-    id
-  }
-  
-  deletePlayer(id:"4"){
-    id
-  }
+	
+	deleteTeam(id:"4"){
+		id
+	}
+	
+	deletePlayer(id:"4"){
+		id
+	}
+}
 ```  
 
 7. Click the execute query button :
