@@ -8,6 +8,8 @@ However you can use the folowing steps to test the API.
 
 **Thanks !**
 
+---
+
 ## This is how you should use it
 1. Clone this project on your computer
 2. Open it in you favorite Java IDE
