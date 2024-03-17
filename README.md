@@ -37,6 +37,7 @@ query MyQuery {
 }
 
 mutation MyMutation{
+
 	updatePlayer(id:"0",first_name:"Jonh",last_name:"Doe",date_of_birth : "29/02/1902", height:"210"){
 		id
 		first_name
