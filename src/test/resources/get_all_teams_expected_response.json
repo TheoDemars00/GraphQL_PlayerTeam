@@ -1,0 +1,31 @@
+{
+  "data": {
+    "getTeams": [
+      {
+        "id": "0",
+        "team_name": "Team Name 0",
+        "city": "City 0"
+      },
+      {
+        "id": "1",
+        "team_name": "Team Name 1",
+        "city": "City 1"
+      },
+      {
+        "id": "2",
+        "team_name": "Team Name 2",
+        "city": "City 2"
+      },
+      {
+        "id": "3",
+        "team_name": "Team Name 3",
+        "city": "City 3"
+      },
+      {
+        "id": "4",
+        "team_name": "Team Name 4",
+        "city": "City 4"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+query getTeams{
+	    id
+	    team_name
+	    city
+	  }

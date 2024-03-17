@@ -1,0 +1,20 @@
+# The Root Query for the application
+type Query {
+
+    getTeams:[Team]
+    getPlayers:[Player]
+    
+}
+
+# The Root Mutation for the application
+type Mutation {
+
+    writeTeam(id:String!,team_name:String!,city:String!): Team!
+    deleteTeam(id:String!): Team!
+    updateTeam(id:String!,team_name:String!,city:String!): Team!
+    
+    
+    writePlayer(id:String!,first_name:String!,last_name:String!,date_of_birth:String!,height:String!): Player!
+    deletePlayer(id: String!): Player!
+    updatePlayer(id: String!, first_name: String!, last_name: String!, date_of_birth: String!, height: String!): Player!
+}

@@ -1,0 +1,5 @@
+type Team {
+    id: ID!
+    team_name: String!
+    city: String!
+}
